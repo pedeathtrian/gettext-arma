@@ -90,6 +90,7 @@ libgettextpo_la_AUXSOURCES = \
   ../src/format-kde-kuit.c \
   ../src/format-boost.c \
   ../src/format-lua.c \
+  ../src/format-arma.c \
   ../src/format.c \
   ../src/plural-exp.c \
   ../src/plural-eval.c \

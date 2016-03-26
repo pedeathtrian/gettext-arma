@@ -55,7 +55,7 @@ po-time.h plural-table.h lang-table.h format.h filters.h \
 xgettext.h x-c.h x-po.h x-sh.h x-python.h x-lisp.h x-elisp.h x-librep.h \
 x-scheme.h x-smalltalk.h x-java.h x-properties.h x-csharp.h x-awk.h x-ycp.h \
 x-tcl.h x-perl.h x-php.h x-stringtable.h x-rst.h x-glade.h x-lua.h \
-x-javascript.h x-vala.h x-gsettings.h x-desktop.h x-appdata.h
+x-javascript.h x-vala.h x-gsettings.h x-desktop.h x-appdata.h x-arma.h
 
 EXTRA_DIST += FILES project-id
 
@@ -143,7 +143,8 @@ FORMAT_SOURCE += \
   format-kde-kuit.c \
   format-boost.c \
   format-lua.c \
-  format-javascript.c
+  format-javascript.c \
+  format-arma.c
 
 # libgettextsrc contains all code that is needed by at least two programs.
 libgettextsrc_la_SOURCES = \
@@ -184,7 +185,7 @@ xgettext_SOURCES += \
   x-c.c x-po.c x-sh.c x-python.c x-lisp.c x-elisp.c x-librep.c x-scheme.c \
   x-smalltalk.c x-java.c x-csharp.c x-awk.c x-ycp.c x-tcl.c x-perl.c x-php.c \
   x-rst.c x-lua.c x-javascript.c x-vala.c \
-  x-desktop.c
+  x-desktop.c x-arma.c
 if !WOE32DLL
 msgattrib_SOURCES = msgattrib.c
 else

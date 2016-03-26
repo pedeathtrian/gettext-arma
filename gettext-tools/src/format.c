@@ -61,7 +61,8 @@ struct formatstring_parser *formatstring_parsers[NFORMATS] =
   /* format_kde_kuit */         &formatstring_kde_kuit,
   /* format_boost */            &formatstring_boost,
   /* format_lua */              &formatstring_lua,
-  /* format_javascript */       &formatstring_javascript
+  /* format_javascript */       &formatstring_javascript,
+  /* format_arma */             &formatstring_arma
 };
 
 /* Check whether both formats strings contain compatible format

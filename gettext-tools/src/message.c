@@ -61,7 +61,8 @@ const char *const format_language[NFORMATS] =
   /* format_kde_kuit */         "kde-kuit",
   /* format_boost */            "boost",
   /* format_lua */              "lua",
-  /* format_javascript */       "javascript"
+  /* format_javascript */       "javascript",
+  /* format_arma */             "arma"
 };
 
 const char *const format_language_pretty[NFORMATS] =
@@ -93,7 +94,8 @@ const char *const format_language_pretty[NFORMATS] =
   /* format_kde_kuit */         "KDE KUIT",
   /* format_boost */            "Boost",
   /* format_lua */              "Lua",
-  /* format_javascript */       "JavaScript"
+  /* format_javascript */       "JavaScript",
+  /* format_arma */             "Arma"
 };
 
 

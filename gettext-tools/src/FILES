@@ -242,6 +242,7 @@ format-kde.c           Format string handling for KDE.
 format-boost.c         Format string handling for Boost.
 format-lua.c           Format string handling for Lua.
 format-javascript.c    Format string handling for JavaScript.
+format-arma.c          Format string handling for Arma files.
 format.c        Table of the language dependent format string handlers.
 
 plural-exp.c
@@ -360,6 +361,9 @@ msgl-check.c
 | x-appdata.h
 | x-appdata.c
 |               String extractor for AppData files.
+| x-arma.h
+| x-arma.c
+|               String extractor for Arma files.
 | xgettext.c
 |               Main source for the 'xgettext' program.
 |
