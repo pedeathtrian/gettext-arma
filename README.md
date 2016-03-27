@@ -1,6 +1,6 @@
 #### GNU gettext with support for Arma files
 
-GNU gettext with support for Arma files is like GNU gettext without one, but only with one.
+GNU gettext with support for Arma files is like GNU gettext without one, but only with one.  
 (Original GNU gettext's `README` file is still available as `README`).
 
 Differences:
